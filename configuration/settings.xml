@@ -11,7 +11,7 @@
       <!--This sends everything else to /public -->
       <id>nexus3</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://nexus3-nexus3.apps.10.18.12.40.nip.io/repository/maven-public/</url>
+      <url>http://nexus3.nexus3.svc.cluster.local/repository/maven-public/</url>
     </mirror>
   </mirrors>
   <profiles>
