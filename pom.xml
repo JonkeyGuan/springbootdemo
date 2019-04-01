@@ -66,11 +66,11 @@
 	<distributionManagement>
 		<repository>
 			<id>nexus3</id>
-			<url>http://nexus.apps.wemeetyou.cn/repository/maven-public/</url>
+			<url>http://nexus3.nexus3.svc.cluster.local:8081/repository/maven-public/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus3</id>
-			<url>http://nexus.apps.wemeetyou.cn/repository/maven-snapshots/</url>
+			<url>http://nexus3.nexus3.svc.cluster.local:8081/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
